@@ -34,7 +34,7 @@ export default function Page(){
     return (
         <div className="max-w-6xl py-4 mx-auto sm:py-16 sm:px-24">
             {result !== null && !loading && (
-               <h1 className="text-3xl font-medium">Ropa {result[0].category.categoryName}</h1>
+               <h1 className="text-3xl font-medium"> Ropa {result[0].category?.categoryName}</h1>
             )}
             <Separator/>
 
