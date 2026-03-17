@@ -43,8 +43,9 @@ const FeaturesProducts = () => {
                                 <div className="p-1">
                                     <Card className="py-4 border border-gray-200 shadow-none">
                                         <CardContent className="relative flex items-center justify-center px-6">
+                                            {/* AQUÍ ESTÁ EL CAMBIO ↓ */}
                                             <img 
-                                                src={`${process.env.NEXT_PUBLIC_BACKEND_URL}${imageUrl}`} 
+                                                src={imageUrl} 
                                                 alt={productName} 
                                                 className="rounded-lg object-cover"
                                             />
